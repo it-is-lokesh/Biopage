@@ -1,0 +1,255 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+*{
+    box-sizing: border-box;
+    align-items: center;
+}
+.one{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(90deg, rgba(255,0,181,1) 15%, rgba(255,0,0,1) 100%);    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+
+.two{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    flex-direction: row;
+    overflow: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.three{
+    
+    float: left;
+    margin: 5%;
+    flex: 30%;
+    background-color: rgb(240, 240, 240);
+}
+
+#img1{
+    display: block;
+    width: 100%;
+}
+
+.four{
+    border-color: yellow;
+    border-style: solid;
+    padding: 20px;
+    float: left;
+    margin: 5%;
+    font-size: 18px;
+    flex: 70%;
+    background-color: white;
+    
+}
+
+.five{
+    padding: 20px;
+    float: left;
+    margin: 5%;
+    flex: 50%;
+    font-size: 50px;
+    color: grey;
+    
+}
+
+.six{
+    border-color: rgb(0, 238, 255);
+    border-style: solid;
+    padding: 20px;
+    float: left;
+    margin: 5%;
+    font-size: 18px;
+    flex: 50%;
+    background-color: white;
+}
+
+.seven{
+    width: 100%;
+    
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+    flex-wrap: nowrap;
+    overflow: auto;
+    background-color: rgb(240, 240, 240);
+}
+
+.eight{
+    flex: 50%;
+    float: left;
+    margin: 5%;
+    
+    font-size: 50px;
+    color: grey;
+    padding: 25px;
+    
+}
+
+.nine{
+    float: left;
+    flex: 50%;
+    background: linear-gradient(90deg, rgba(255,0,181,0.5) 15%, rgba(255,0,0,0.5) 100%);
+    margin: 5%;
+    padding: 25px;
+    background-color: white;
+}
+
+.ten{
+    flex: 70%;
+    float: left;
+    border-color: rgb(255, 0, 221);
+    border-style: solid;
+    margin: 5%;
+    padding: 25px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.eleven{
+    float: left;
+    flex: 30%;
+    
+    margin: 5%;
+    padding: 25px;
+    font-size: 50px;
+    color: grey;
+    background-color: white;
+}
+
+.twelve{
+    width: 100%;
+    flex-direction: column;
+    height: 25vw; 
+    overflow: auto;
+    background-color: white;
+    
+    
+}
+
+.twelve>img{
+    height: 100%;
+    
+    float: left;
+}
+
+#one, #three{
+    width: 100%;
+    background: rgb(240, 240, 240);
+}
+
+.thirteen{
+    height: 40px;
+    justify-content: center;
+}
+
+.im{
+    height: 100%;
+    justify-content: center;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.l1>a{
+    float: left;
+    display: block;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+#ul1{
+    background-color: rgb(70, 70, 70);
+    color: white;
+    margin: 0em;
+    padding: 0em;
+    overflow: hidden;
+}
+
+.l1>a:hover{
+    background-color: rgb(80, 80, 80);
+}
+
+#nav{
+    position: sticky;
+    top: 0px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.inp{
+    width: 100%;
+    height: 25px;
+    border: none;
+}
+
+.inp:hover, .inp:focus{
+    border-bottom: 3px solid rgb(0, 38, 255);
+    outline: none;
+}
+
+@media only screen and (max-width: 1030px){
+    .two{
+        flex-direction: column;
+    }
+
+    #img1{
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .seven{
+        flex-direction: column;
+    }
+
+    .nine{
+        flex: 70%;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    .four, .six, .ten{
+        border-width: 25px;
+        
+    }
+}
+
+@media only screen and (min-width: 1300px){
+    .four, .six, .ten{
+        border-width: 40px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .four, .six, .ten{
+        font-size: 15px;
+        
+    }
+}
+
+@media only screen and (min-width: 650px){
+    .four, .six, .ten{
+        font-size: 18px;
+    }
+}
